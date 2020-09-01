@@ -1,0 +1,36 @@
+body {
+	align-items: center;
+	width: 100%;
+	background-color: azure;
+}
+
+h1{
+	text-align: center;
+	color: rgb(135, 135, 155);
+	text-decoration: none;
+}
+
+.collection-item {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 45% 45% 10%;
+}
+
+.books-header {
+	width: 100%;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 45% 45% 10%;
+	padding: 0 20px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.title,
+.author {
+	display: inline-block;
+}
+
+.delete-item {
+	justify-self: self-end;
+}
